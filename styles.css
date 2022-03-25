@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: roboto, Arial, sans-serif;
+}
+
+#score-container,
+#score-label {
+  font-family: laquer, Arial, sans-serif;
+  text-align: center;
+}
+#btn-container{
+  display: flex;
+  justify-content: center;
+}
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 1px;
+  }
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 50px
+  ;
+
+}
+
+.button img{
+  width: 300px;
+}
+
+.title{
+  font-size: 50px;
+  text-align: center;
+}
+  
+#desc1,
+#desc2,
+#desc3{
+  font-size: 25px;
+  text-align: center;
+}
+
+.score {
+  font-size: 80px;
+  padding: 0px 40px;
+}
+
+#score-label,
+#score-container {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  font-size: 30px;
+  margin-top: 80px;
+  padding: 0 40px;
+}

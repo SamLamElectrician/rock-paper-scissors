@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    
+</head>
+<body>
+    <div class="title">Rock Paper Scissors DEATH</div>
+    
+    <div class="desc animate" id="desc1">In a duel spanning 5 days, You will choose your gladiator to fight for you in the colosseum to win the land of your opponents. </div>
+    <div class="decc disappear" id="desc2">You will choose between your best fighters: Dwyane "The Rock" Johnson, Edward Scissor hands and TP Avenger</div>
+    <div class="desc disappear" id="desc3"> Choose your fighter!</div>
+    
+    <div class="game-container">
+      <div id="btn-container">
+        <div id="paper" class="button"><img src="/img/Paper.webp"  alt="paper" width="300" height="300"></div>
+        <div id="rock" class="button"><img src="/img/Rock.jpg" alt="The Rock" width="300" height="300"></div>
+        <div id="scissors" class="button"><img src="/img/Scissors.jpg" alt="scissor man" width="300" height="300"> </div>
+      </div>  
+    </div>
+
+    <div id="score-label">
+        <div class="label">The Hero</div>
+        <div class="label">Villanus Villian</div>
+      </div>
+      <div id="score-container">
+        <div id="player-score" class="score">0</div>
+        <div id="computer-score" class="score">0</div>
+      </div>
+      <div id="results-container"></div>
+      <div id="end-alert" class="disappear">
+        <div id="end-desc"></div>
+        <a id="retry-btn"></a>
+      </div>
+      <script src="rockpaperscissors.js"></script>
+</body>
+</html>
