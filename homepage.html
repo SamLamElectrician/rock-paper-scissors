@@ -19,27 +19,27 @@
     <div class="decc disappear" id="desc2">You will choose between your best fighters: Dwyane "The Rock" Johnson, Edward Scissor hands and TP Avenger</div>
     <div class="desc disappear" id="desc3"> Choose your fighter!</div>
     
-    <div class="game-container">
-      <div id="btn-container">
-        <div id="paper" class="button"><img src="/img/Paper.webp"  alt="paper" width="300" height="300"></div>
-        <div id="rock" class="button"><img src="/img/Rock.jpg" alt="The Rock" width="300" height="300"></div>
-        <div id="scissors" class="button"><img src="/img/Scissors.jpg" alt="scissor man" width="300" height="300"> </div>
+    <div class="gameContainer">
+      <div class="selections">
+        <button  class="selection" data-selection="paper"><img src="/img/Paper.webp"  alt="paper" width="300" height="300"></button>
+        <button  class="selection" data-selection="rock"><img src="/img/Rock.jpg" alt="The Rock" width="300" height="300"></button>
+        <button  class="selection" data-selection="scissors"><img src="/img/Scissors.jpg" alt="scissor man" width="300" height="300"> </button>
       </div>  
     </div>
 
-    <div id="score-label">
+    <div id="scoreLabel">
         <div class="label">The Hero</div>
         <div class="label">Villanus Villian</div>
       </div>
-      <div id="score-container">
-        <div id="player-score" class="score">0</div>
-        <div id="computer-score" class="score">0</div>
+      <div id="scoreContainer">
+        <span class="results-score" data-your-score>0</span>
+        <span class="results-score" data-computer-score>0</span>
       </div>
-      <div id="results-container"></div>
-      <div id="end-alert" class="disappear">
-        <div id="end-desc"></div>
-        <a id="retry-btn"></a>
+      <div id="resultsContainer"></div>
+      <div id="endAlert" class="disappear">
+        <div id="endDesc"></div>
+        <a id="retryBtn"></a>
       </div>
-      <script src="rockpaperscissors.js"></script>
+      <script src="rockpaperscissors.js" type="module"></script>
 </body>
 </html>

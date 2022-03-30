@@ -4,22 +4,24 @@ body{
     font-family: roboto, Arial, sans-serif;
 }
 
-#score-container,
-#score-label {
+#scoreContainer,
+#scoreLabel {
   font-family: laquer, Arial, sans-serif;
   text-align: center;
 }
-#btn-container{
+.selections{
   display: flex;
   justify-content: center;
 }
-.button:hover {
+.selection:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.2);
+    color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 20px 1px;
+    transition: 400ms;
   }
 
-.button{
+.selection{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +32,7 @@ body{
 
 }
 
-.button img{
+.selection img{
   width: 300px;
 }
 
@@ -46,13 +48,13 @@ body{
   text-align: center;
 }
 
-.score {
+.results-score {
   font-size: 80px;
   padding: 0px 40px;
 }
 
-#score-label,
-#score-container {
+#scoreLabel,
+#scoreContainer {
   display: flex;
   justify-content: center;
 }
@@ -61,4 +63,9 @@ body{
   font-size: 30px;
   margin-top: 80px;
   padding: 0 40px;
+}
+
+#end-desc {
+  font-size: 50px;
+  margin-bottom: 25px;
 }
