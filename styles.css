@@ -5,7 +5,10 @@ body{
 }
 
 #scoreContainer,
-#scoreLabel {
+#scoreLabel,
+#endDesc,
+#retryBtn,
+#title {
   font-family: laquer, Arial, sans-serif;
   text-align: center;
 }
@@ -65,7 +68,36 @@ body{
   padding: 0 40px;
 }
 
-#end-desc {
-  font-size: 50px;
+#endDesc {
+  font-size: 25px;
   margin-bottom: 25px;
 }
+
+#retryBtn {
+  display: inline-block;
+  padding: 0.8em 1.4em;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #646464;
+  background-color: rgb(245, 245, 245);
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  position: relative;
+  margin-top: 25px;
+  opacity: 0;
+}
+#retryBtn:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+  transform: scale(1.05);
+}
+
+#end-alert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
